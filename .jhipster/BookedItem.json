@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240118131828"
+  },
+  "applications": "*",
+  "entityTableName": "booked_item",
+  "fields": [
+    {
+      "fieldName": "bookingId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "itemId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "customItemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "availableDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "BookedItem",
+  "relationships": [],
+  "searchEngine": "no"
+}

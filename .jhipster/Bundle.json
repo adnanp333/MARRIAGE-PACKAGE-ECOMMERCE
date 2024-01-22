@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20240118131428"
+  },
+  "applications": "*",
+  "entityTableName": "bundle",
+  "fields": [
+    {
+      "fieldName": "bundleName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "priceRange",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "maxPeople",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Bundle",
+  "relationships": [],
+  "searchEngine": "no"
+}

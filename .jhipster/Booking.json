@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20240118131728"
+  },
+  "applications": "*",
+  "entityTableName": "booking",
+  "fields": [
+    {
+      "fieldName": "bundleId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "customerName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bookingStartDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "bookingEndDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "bookingStartTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "bookingEndTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "Booking",
+  "relationships": [],
+  "searchEngine": "no"
+}

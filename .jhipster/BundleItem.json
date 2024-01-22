@@ -1,0 +1,20 @@
+{
+  "annotations": {
+    "changelogDate": "20240118131628"
+  },
+  "applications": "*",
+  "entityTableName": "bundle_item",
+  "fields": [
+    {
+      "fieldName": "bundleId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "itemId",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "BundleItem",
+  "relationships": [],
+  "searchEngine": "no"
+}
